@@ -7,7 +7,7 @@ from PIL import Image
 import os
 
 # Path to the model file
-MODEL_PATH = 'anchal_model.h5'
+MODEL_PATH = 'anchal_model.keras'
 
 # Load your model
 if os.path.exists(MODEL_PATH):
